@@ -39,10 +39,4 @@ console.log("loop has ended");*/
  for (let i = 7; i <= 10; i++) {
   calculateValue = calculateValue + i
 }
- console.log("sum=", calculateValue);
-
-
-
-
-
-
+console.log("sum=", calculateValue);
