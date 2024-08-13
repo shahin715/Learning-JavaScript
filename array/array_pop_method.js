@@ -8,8 +8,9 @@ console.log(number);// Output: [5, 10, 15, 20]
 
 let animals = ['cat', 'dog', 'elephant'];
 let lastAnimal = animals.pop();
-number.pop();// Output: 'elephant'
-console.log(animals); // Output: ['cat', 'dog']
+console.log(lastAnimal); // Output: 'elephant'
+console.log(animals);   // Output: ['cat', 'dog']
+
 
 //Given an array let fruits = ['apple', 'banana', 'orange', 'grape'];, use a loop to remove and log each element from the array until it is empty.
 
@@ -41,4 +42,9 @@ console.log(nums.length);
 nums.pop();
 console.log(nums.length);// Output: 3
 
-
+// let nums = [10, 20, 30, 40, 50];
+// console.log(nums.length);
+// nums.pop();
+// console.log(nums.length);
+// nums.pop();
+// console.log(nums.length);// Output: 3
